@@ -2,8 +2,8 @@ public class Mainexo1 {
 
     public static void main(String[] args) throws CloneNotSupportedException {
 
-        Adresse adresse1 = new Adresse("Rue A", "Ville X");
-        Personne p1 = new Personne("Anis", 20, adresse1);
+        Adresse adresse1 = new Adresse("Ouled yaich", "Boufarik");
+        Personne p1 = new Personne("Anis", 19, adresse1);
 
 
         Personne p2 = (Personne) p1.clone();
