@@ -4,9 +4,9 @@ import java.util.Arrays;
     public class Test implements Comparator {
     public static void main(String[] args) throws CloneNotSupportedException {
 
-        Perssone p1 = new Perssone("walid", "laa", 19);
-        Perssone p2 = new Perssone("walid", "lab",20);
-        Perssone p3 = new Perssone("walid", "lac", 30);
+        Perssone p1 = new Perssone("Anis", "laa", 19);
+        Perssone p2 = new Perssone("Anis", "lab",20);
+        Perssone p3 = new Perssone("Anis", "lac", 30);
 
         Perssone[] personnes = {p1, p2, p3};
 
